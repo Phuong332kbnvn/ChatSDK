@@ -1,2 +1,2 @@
 # ChatSDK
-Compare các chat SDK dùng cho ios app
+## So sánh các chat SDK dùng cho iOS app
