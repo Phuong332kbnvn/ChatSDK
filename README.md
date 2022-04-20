@@ -55,13 +55,15 @@ Với tính năng mở rộng của Chat SDK,  developer có thể phát triển
 
 ##### Tính năng nổi bật
 - Message Broadcast
-- Chia sẻ màn hình
-- Tin nhắn đa nền tảng
-- Cuộc gọi hội nghị
+- Enterprise Chat
+- Language Translation
 - Live Broadcasting
 - End to End Encryption
-- Channel
+- Multi Channels
 - Push Notifications
+- Advanced Search Filters
+- Secure File Sharing
+- Encrypted Chats
 
 ##### Platform: 
 iOS, Android, và Web App
@@ -71,7 +73,6 @@ Có bản dùng thử miễn phí
 Thanh toán theo tháng ứng dụng trò chuyện dựa trên khả năng mở rộng của người dùng, bắt đầu từ $99
 
 ### 2. Sendbird
-
 Sendbird với đa dạng các kênh nhắn tin mang đến trải nghiệm kênh trò chuyện tốt nhất trôi chảy liền mạch trên nhiều thiết bị và ứng dụng, bộ đầy đủ các tính năng nhắn tin thiết yếu của Sendbird đảm bảo trải nghiệm trò chuyện trong ngành tốt nhất cho người dùng: Reactions, Typing indicators, User mentions,... Sendbird đã phát triển mạnh mẽ với đầy đủ chức năng của một Chat SDK
 
 Tăng mức độ tương tác của người dùng bằng cách cho phép người dùng linh hoạt thể hiện bản thân bằng nhiều định dạng tin nhắn. Giữ cho người dùng tương tác với trò chuyện thông qua tin nhắn và thông báo ngoại tuyến, đồng thời tăng khả năng sử dụng với tính năng tìm kiếm tin nhắn của Sendbird
@@ -85,22 +86,25 @@ Khả năng mở rộng của Sendbird cung cấp trên 30 triệu MAU cho mỗi
 ##### Chức năng nổi bật
 - Push Notifications
 - Typing Indicators
+- User presence indicators
+- Unread message count, mention count
 - Send & Receive Structured Media
 - Auto-Thumbnail Generation
 - Read Receipts
 - User-to-User Blocking
+- Mute user in the channel
+- Message retrieval API
 - Cross-Platform Sync
 - Chat Analytics
 
 ##### Platform: 
-iOS, Android và Web Applications
+iOS, Android và Web App
 
 ##### Chi phí: 
 Miễn phí dành cho developer với ứng dụng thử nghiệm, chức năng hạn chế
 Bắt đầu từ $399/tháng đối với doanh nghiệp có quy mô lớn cần đầy đủ chức năng của một Chat SDK, có sẵn bản dùng thử miễn phí
 
 ### 3. ApphiTect
-##### Overview
 ApphiTect được xây dựng để đáp ứng nhiều nhu cầu cho một ứng dụng nhắn tin,mang lại giao tiếp tốt hơn với các tính năng trò chuyện độc đáo giúp ứng dụng sẽ nổi bật hơn đối thủ cạnh tranh như khả năng kết nối toàn cầu mọi lúc, mọi nơi, duy trì kết nối với người dùng thông qua API hội nghị truyền hình và thực hiện cuộc gọi hội nghị tới nhiều người trên mọi thiết bị, tạo ra sự tương tác lớn và mạnh mẽ bằng cách phát trực tiếp các sự kiện trực tiếp từ bất kỳ trình duyệt hoặc trang web nào bao gồm cả phương tiện truyền thông xã hội để có phạm vi tiếp cận không giới hạn... Cùng với vô số chức năng trò chuyện đã tích hợp được tạo sẵn. Bên cạnh đó, ApphiTect còn thúc đẩy khả năng trò chuyện cấp cao trên các lĩnh vực Các API và Chat SDK mạnh mẽ cho phép nhiều khả năng trò chuyện: telehealth, gaming, banking , edu tech...
 
 Cung cấp một môi trường quy định, các biện pháp bảo mật được đánh giá cao nhất để đảm bảo an toàn bảo mật và tuân thủ các tiêu chuẩn với các dịch vụ nhắn tin trò chuyện sẵn sàng như: mã hóa E2E, giao thức Tín hiệu, Tuân thủ HIPAA, AES 26 và GDPR đảm bảo sự cộng tác hoàn hảo và an toàn của người dùng với quyền riêng tư đầu cuối trong dữ liệu hội thoại
@@ -111,12 +115,17 @@ Nhược điểm lớn nhất của ApphiTect là không có bản dùng thử m
 #####  Tính năng nổi bật
 - Enterprise Communication SDK
 - In-App messaging
-- Group Chat
+- One To One & Group Chat
 - Push notifications
-- Multimedia Sharing
-- Easy Screen Sharing
+- File Sharing, Screen Sharing
+- Multi Party Conferencing
+- Voice Call Recording
+- One To One Voice Calling, Cross Platform Calling
 - Live Broadcasting API
 - Video Conferencing API
+- Backup & Storage
+
+
 ##### Platform: 
 iOS và Android
 ##### Chi phí: 
@@ -124,7 +133,6 @@ Chi phí giấy phép một lần, tránh chi trả hàng tháng
 Cần liên hệ với bộ phận bán hàng để có thông tin các gói chi phí 
 
 ### 4. CometChat
-##### Overview
 CometChat được tải đầy đủ tất cả các tính năng trò chuyện nâng cao mà người dùng mong đợi. CometChat là nhà cung cấp chat SDK / API cho các tổ chức quy mô vừa đến lớn
 
 Cung cấp tính năng nhắn tin trong ứng dụng có thể mở rộng, gọi thoại và video với khả năng tương thích đa nền tảng (iOS, Android và Web) và dễ dàng cài đặt. Một dòng mã thiết lập kết nối an toàn đến dịch vụ bằng cùng một giao thức cơ bản. Sử dụng các phần tử giao diện người dùng với SDK và xây dựng các tính năng và tiện ích mở rộng theo yêu cầu để tạo ra trải nghiệm hoàn chỉnh.
@@ -132,16 +140,18 @@ Cung cấp tính năng nhắn tin trong ứng dụng có thể mở rộng, gọ
 Để đảm bảo chỉ người dùng của bạn có thể đọc những gì được gửi, CometChat có tính năng mã hóa (end-to-end encryption) dữ liệu nhằm ngăn chặn việc đọc hoặc sửa đổi dữ liệu bởi bất kỳ ai trừ người gửi và người nhận. Các tin nhắn được mã hóa bởi người gửi và được người nhận giải mã cục bộ trên thiết bị của họ
 
 #####  Tính năng nổi bật
-- One-on-One text chat
-- Group chat
-- Voice calling
-- Voice conference
-- Video calling
-- Video conference
+- Push Notifications, email Notifications, SMS Notifications
+- Các phím tắt tin nhắn
+- Phiên âm giọng nói
+- Virus, Malware Scanner
+- Phân tích cảm xúc
+- Kiểm duyệt hình ảnh
+- End-to-end encryption
+
 ##### Platform:
 iOS, Android và Web
 ##### Chi phí: 
-Bắt đầu từ $149 một tháng, có sẵn bản dùng thử miễn phí
+Bắt đầu từ $149/tháng, có sẵn bản dùng thử miễn phí
 
 ### 5. ChatCamp
 ##### Overview
@@ -155,10 +165,12 @@ Sử dụng chat SDK and messaging API để xây dựng một ứng dụng trò
 Điều riêng biệt của ChatCamp là đi kèm với một trang tổng quan mạnh mẽ, đặc biệt phù hợp với nhóm quản trị viên muốn quản lý Channels, config push notifications, kiểm duyệt người dùng trực tuyến,...
 #####  Tính năng nổi bật
 - Group Channels
-- Online Presence
-- Kiểm soát ngôn từ
-- Push Notifications
-- Lưu trữ cuộc trò chuyện
+- Thuyết tình trực tuyến
+- Kiểm duyệt người dùng 
+- Kiểm soát ngôn từ 
+- Push Notifications, email notification
+- Tin nhắn tự động
+- Trang điều khiển
 
 
 ##### Platform: 
@@ -168,14 +180,3 @@ iOS, Android, và Web Apps
 Có bản dùng thử miễn phí
 Gói định giá tùy theo các kế hoạch được thiết kế riêng phù hợp với doanh nghiệp, bắt đầu từ 499$/tháng
 
-##### [Setup ChatCamp for iOS]
-[Setup ChatCamp for iOS]:<https://docs.chatcamp.io/docs/ios-chat-quickstart>
-
-# Tổng kết
-|  | Mirrorfly| Sendbird | Twilio | PubNub | Applozic | CometChat | ChatCamp |
-| ------ | ------ | ------ | ------ | ------ |------ | ------ | ------ |
-| Chi phí | Có | Có | | | | Có | Có  |
-| Support iOS/Android | All | All | | | | All  |  All |
-| Support push notification | Có | Có | | | | Có  |  Có |
-| Bảo mật / mã hóa chat | Có | Có | | | | Có  | Có  |
-| Tính khả dụng của việc scable | có | Có  | | |  |Có |  Có |
