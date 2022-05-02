@@ -1,44 +1,43 @@
 # Chat SDK
 
 ## What is Chat SDK?
-Chat SDK là một gói lập trình hoặc tập hợp các công cụ và chương trình phần mềm cho phép các developer xây dựng các ứng dụng trò chuyện một cách hiệu quả 
+Chat SDK (Software Development Kit) là một framework mã nguồn mở cung cấp cho developer các công cụ hỗ trợ nhằm xây dựng các ứng dụng trò chuyện một cách hiệu quả trên iÓ hoặc Android.
 
-Chat SDK thường đi kèm với các tính năng có sẵn như biểu tượng cảm xúc, tệp đính kèm tin nhắn, tích hợp Giphy,.. để làm cho trải nghiệm trò chuyện hấp dẫn hơn. Nó cho phép người dùng tự do giao tiếp ngay lập tức, do đó mang lại cơ hội xây dựng cộng đồng một cách từ từ và ổn định
+Chat SDK thường đi kèm với các tính năng có sẵn để làm cho trải nghiệm trò chuyện hấp dẫn hơn, cho phép người dùng tự do giao tiếp, xây dựng cộng đồng từ từ và ổn định
 
-## Các chức năng của Chat SDK
-Một Chat SDK tốt phải có thể cung cấp các tính năng sau:
-- Khả năng mở rộng: Người dùng hoặc doanh nghiệp không tĩnh. Chúng phát triển theo thời gian và khi hoàn cảnh thay đổi. Một chat SDK tốt phải đảm bảo rằng nó có thể được tin cậy khi những thay đổi như vậy diễn ra.
-- Gửi thông báo: Khi mọi người rất bận rộn, việc kiểm tra điện thoại của họ để tìm tin nhắn mới có thể không khả thi hoặc thực tế, do đó việc có một thông báo khi có tin nhắn mới là việc rất cần thiết. Modern Chat SDK phải tích hợp chức năng này nếu nó phải mở rộng quy mô cạnh tranh trên thị trường.
-- Sao lưu tin nhắn: Chúng ta có thể đặt nhầm điện thoại của mình hoặc vì lý do nào đó làm mất đi cuộc trò chuyện. Chat SDK có thể giúp chúng ta được lưu giữ những cuộc trò chuyện như vậy và cung cấp chúng bất cứ lúc nào chúng ta cần. Các cá nhân và công ty có thể phụ thuộc vào chat SDK đó cho các tin nhắn bất cứ khi nào cần
-- Tùy biến: Các nhà phát triển sử dụng một SDK trò chuyện nhất định sẽ có thể điều khiển SDK theo một thứ mà họ mong muốn. Ví dụ: hồ sơ người dùng phải có thể vượt quá chi tiết người dùng thông thường và có nhiều chi tiết hơn nếu nhà phát triển muốn
-- Truy cập dữ liệu: Các nhà phát triển phải có quyền truy cập vào dữ liệu như tin nhắn và thông tin chi tiết về người dùng của người dùng của họ. Điều này nên được cung cấp vì nó giúp các nhà phát triển giám sát ứng dụng tốt hơn và mang lại cho họ cảm giác sở hữu
-- Nhắn tin động: SDK trò chuyện được cho là cho phép người dùng giao tiếp bằng các phương tiện khác nhau. Ví dụ: người dùng không muốn sử dụng văn bản trong giao tiếp, nên được phép sử dụng âm thanh, video, hình ảnh, nhãn dán, v.v.
-- Xác thực linh hoạt: Việc đăng nhập hoặc tạo người dùng không bị giới hạn theo một số cách do chat SDK chỉ định. Thay vào đó, chat SDK phải cung cấp các khả năng xác thực để đáp ứng bất kỳ quy trình xác thực nào mà các nhà phát triển có thể đã có.
-- Feedback: chat SDK phải cung cấp cho chúng tôi những phản hồi như vậy. Điều này rất quan trọng để giữ chân khách hàng. Sự hài lòng của khách hàng là hàng đầu
-- Bộ lọc tục tĩu và chặn người dùng:  Sẽ luôn có người đó gây ra phiền toái. Chúng tôi muốn có thể xóa họ khỏi một nhóm hoặc chặn họ tiếp cận với chúng tôi. Chat SDK phải cung cấp các chức năng như vậy
-
-## Các thành phần của Chat SDK 
-Mọi Chat SDK đều được tạo thành từ ba thành phần. Những phần này là bắt buộc để SDK trở lên hữu ích:
-1. APIs
-Application Programming Interface
-Các API này là một tập hợp mã đã được chuẩn bị sẵn cho phép các nhà phát triển thực hiện các tác vụ lập trình thông thường như truyền dữ liệu giữa phần mềm này và phần mềm khác, chúng được gọi là Chat API
-2. IDE
-Integrated Development Environment
-Đây là một trình chỉnh sửa trực quan cho phép các nhà phát triển đưa ra các khái niệm thiết kế và có thể tạo ra các thiết kế như vậy trong khi thực hiện các tác vụ tối thiểu
+## Các thành phần quan trọng của Chat SDK 
+Một chat SDK bao gồm một số thành phần cần thiết và chúng sẽ giúp làm tăng tính hiệu quả khi sử dụng chat SDK đó.
+1. APIs (Application Programming Interface)
+Nó giống như một thư viện, gồm các bộ mã để lập trình, các thuộc tính, các khối xây dựng để tạo ra các tính năng trong ứng dụng trò chuyện.
+2. IDE (Integrated Development Environment)
+Là một bộ phần mềm toàn diện hỗ trợ phát triển ứng dụng trò chuyện. chúng giúp kết hợp các bộ mã khác nhau vào một chương trình duy nhất.
+IDE boa gồm chỉnh sửa mã nguồn, xây dựng tệp thực thi, tự động hóa xây dựng cục bộ,...
 3. Dependencies
-Phụ thuộc là các công cụ khác trong SDK trò chuyện mà nhà phát triển sử dụng hoặc phụ thuộc vào để thực hiện các chức năng như gỡ lỗi, xây dựng, chạy, thử nghiệm, v.v.
+Bao gồm các công cụ nâng cao khác trong SDK mà developer có thể tận dụng để thực hiện các chức năng như gỡ lỗi, build, run, kiểm thử,...
+
+## Các chức năng chính của Chat SDK
+Một Chat SDK tốt phải có thể cung cấp các tính năng sau:
+- Khả năng mở rộng: Các hoạt động và phương pháp tiếp cận của cá nhân, kinh doanh tiếp tục phát triển theo thời gian. Do đó, điều quan trọng là bất kỳ chat SDK nào cũng phải có khả năng mở rộng để thích ứng với những thay đổi về hình thức giao tiếp trong tương lai.
+- Chức năng gửi thông báo: SDK giúp người dùng cập nhật tất cả các thay đổi cuộc trò chuyện mới nhất của mình thông qua tính năng thông báo đẩy. Người dùng không bị bỏ lỡ các thông báo nào. Trên thực tế, chat SDK hiện đại cho phép người dùng sử dụng các âm thanh thông báo khác nhau với từng loại thông báo khác nhau như tin đã nhận, tin vừa gửi,..
+- Sao lưu tin nhắn: Bất kì các Chat SDK nâng cao nào cũng cho phép chúng ta lưu trữ các cuộc trò chuyện thông thường trên cloud, cho phép chúng ta đồng bộ hóa, truy xuất dữ liệu trên nhiều thiết bị và đa nền tảng.
+- Khả năng Custom: Khi xây dựng các chức năng trò chuyện của tùng doanh nghiệp, phù hợp với mục tiêu kinh doanh. Mỗi doanh nghiệp đều cần xây dựng được tính riêng biệt trong sản phẩm, gia tăng tính cạnh. Do đó, sử dụng một chat SDK cần có thể điều khiển được SDK theo một thứ mà họ mong muốn và có thể sử dụng để cải thiện hiệu quả của nền tảng trò chuyện của riêng họ
+- Truy cập dữ liệu: Developer có toàn bộ quyền truy cập dữ liệu, họ có thể theo dõi và đánh giá, toàn quyền kiểm soát ứng dụng trò chuyện của mình bao gồm mã nguồn ứng dụng khách, dữ liệu tin nhắn và thông tin chi tiết về người dùng,...
+- Nhiều option khi chat: Một SDK hiệu quả sẽ hỗ trợ nhiều cách thưc trò chuyện khác nhau như gửi tin nhắn, video call, chia sẻ vị trí,... Ngoài ra chúng còn cung cấp một số tích hợp thú vị như gif, nhãn dán, emotion,...
+- Tính xác thực linh hoạt: Người dùng có thể đăng nhập với vai trò là admin hoặc tài khoản ẩn danh... nhưng thay vào đó, chat SDK cung cấp tính năng xác thực... (gì đó khó hỉu :<)
+- Feedback và update: chat SDK phải cung cấp các feedback thường xuyên và cập nhật cuộc trò chuyện. Ví dụ như trạng thái online/offline, đang soạn tin nhắn hoặc đã nhận, xem tin nhắn,... việc update liên tục sẽ tạo cho người dùng thấy có sự đổi mới thường xuyên của dữ liệu của mình và luôn muốn theo dõi, chắc chắn sẽ nâng cao được sự hài lòng của họ về ứng dụng.
+- Bộ lọc tục tĩu và chặn người dùng: một Chat SDK hiện đại sẽ có các chức năng giúp ngăn chặn, loại bỏ và bảo vệ người dùng khỏi các cuộc trò chuyện xấu hoặc spam, giúp người dùng tránh khỏi bất kỳ phiền toái có thể xảy ra trên nền tảng giao tiếp của mình
 
 ## Chọn Chat SDK  phù hợp
-Để đưa ra lựa chọn khi sử dụng một Chat SDK  phù hợp, Developers cần quan tâm đến các vấn đề như:
-- Documentation
-- Khả năng mở rộng
-- Hỗ trợ công nghệ
-- Khả năng sử dụng và tính áp dụng
-- Services
-- Phạm vi sử dụng
-- Customization
-- Giá thành
-- Tính bảo mật
+Một Chat SDK phù hợp sẽ giúp ứng dụng trò chuyện khởi chạy một cách nhanh chóng với các chức năng được xây dựng. Do đó cần xem xét kỹ các đặc điểm chức năng của Chat SDK trước khi lựa chọn sử dụng cho chương trình của mình. Để đưa ra lựa chọn khi sử dụng một Chat SDK  phù hợp, Developers cần quan tâm đến các vấn đề sau:
+- Documentation: một bộ Chat SDK có đính kèm bộ hướng dẫn cụ thể, hữu ích cho developer giúp việc tận dụng để hỗ trợ cho quá trình xây dựng ứng dụng nhắn tin một cách thuận tiện, có hiệu quả hơn.
+- Khả năng mở rộng: đây là yếu tố quan trọng để dảm bảo Chat SDK có thể dễ dàng mở rộng, dễ dàng cho devloper phát triển các tính năng phù hợp với nhu cầu giao tiếp của ứng dụng trong tương lai.
+- Hỗ trợ công nghệ: Cần đảm bảo rằng Chat SDK chúng ta sử dụng nên đồng bộ với các công nghệ hiện tại. Và do Chat SDK là một bộ mã nguồn mở, có sự đóng góp cao từ các nhà phát triển. Điều này sẽ giúp Chat SDK luôn được cập nhật với các chức năng mới nhất.
+- Khả năng sử dụng và tính phổ biến: Nên chọn Chat SDK phù hợp với các yêu cầu giao tiếp của ứng dụng của mỗi doanh nghiệp. Tính phổ biến và hiệu quả của một chat SDK đã được đánh giá trước đó sẽ là một giải pháp lựa chọn nhanh chóng và đủ đảm bảo, tin tưởng trong một trường hợp khẩn cấp khi chúng ta chưa thể tìm hiểu kĩ. 
+- Services: chúng ta nên thực hiện khảo sát, nghiên cứu về nhu cầu giao tiếp, các tính năng phù hợp tích hợp trong một ứng dụng trò chuyện trước khi đưa ra quyết định sử dụng bộ Chat SDK hỗ trợ nào.
+- Phạm vi sử dụng: Ít nhất cần đảm bảo rằng Chat SDK được chọn nên bao phủ được phạm vi của người sử dụng.
+- Customization: Chúng ta nên chọn một chat SDK linh hoạt để có thể dễ dàng custom, thay đổi cho phù hợp với yêu cầu tính năng của ứng dụng
+- Giá thành và tính hiệu quả: Hầu hết các chat SDK đều cung cấp bản dùng thử miễn phí cho người sử dụng khi mới bắt đầu. Chúng ta có thể trải nghiệm nhiều SDK khác nhau và lựa chọn ra SDK phù hợp nhất. Từng doanh nghiệp đều cần khôn ngoan khéo léo trong việc chi tiêu cho một dịch vụ hay sản phẩm nào đó mà mức chi phí là tối thiểu nhất cùng với tối đa lợi ích nhận được.
+- Tính bảo mật: Bảo mật là yếu tố quan trọng hàng đầu. Bộ Chat SDK cần cung cấp mức mã hóa nhất định cho các cuộc trò chuyện để đảm bảo các nội dung, thông tin trong quá trình giao tiếp tuyệt đối an toàn, nâng cao sự hài lòng của khách hàng một cách tối ưu nhất.
 
 
 ## Một số Chat SDK dùng cho iOS app nổi bật
