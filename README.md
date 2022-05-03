@@ -44,29 +44,23 @@ Một Chat SDK phù hợp sẽ giúp ứng dụng trò chuyện khởi chạy m�
 
 ### 1. Mirrorfly
 
-MirrorFly là nhà cung cấp Chat SDK hàng đầu cho các doanh nghiệp nhằm xây dựng nền tảng giao tiếp được trang bị nhiều chức năng, phương tiện tương tác cho cả các doanh nghiệp quy mô lớn cũng như quy mô nhỏ.
+MirrorFly là nhà cung cấp Chat SDK hàng đầu cho các doanh nghiệp nhằm xây dựng nền tảng giao tiếp được trang bị nhiều chức năng, phương tiện tương tác cho cả các doanh nghiệp từ quy mô nhỏ tới doanh nghiệp quy mô lớn.
 
-Chat API từ MirrorFly có thể cung cấp tính năng tương tác với người dùng trong thời gian thực bằng cách gửi cho họ thông báo  và cho phép họ luôn kết nối, thu hút tối đa sự chú ý của người dùng với thông tin phù hợp vào đúng thời điểm thông qua push notification để mở rộng mức độ tương tác.
-
-Cung cấp các giao thức bảo mật: GDPR, HIPAA compliance, etc., Cuộc trò chuyện được niêm phong bằng mã hóa E2E để đảm bảo bạn và người nhận tương ứng có thể xem các tin nhắn. Máy chủ giao tiếp từ MirrorFly & client được mã hóa bằng SSL 256-bit để bảo vệ toàn bộ dữ liệu trong cloud, chống lại tin tặc và nâng cao các hạn chế truy cập, cho phép xóa cuộc trò chuyện trong ứng dụng trò chuyện với khoảng thời gian có thể tùy chỉnh hoặc tùy chọn để tập trung vào bảo mật dữ liệu.
-
-Với tính năng mở rộng của Chat SDK, developer có thể phát triển một ứng dụng cộng đồng có thể tùy chỉnh với các tính năng nâng cao và khả năng cộng tác mạnh mẽ trên bất kỳ nền tảng nào trong thời gian thực. 
-
-##### Tính năng nổi bật
-- Push notification
-- Scalability
-- Security
+##### Một số tính năng nổi bật
+- Push notification: Chat API từ MirrorFly có thể cung cấp tính năng tương tác với người dùng trong thời gian thực bằng cách gửi cho họ thông báo  và cho phép họ luôn kết nối, thu hút tối đa sự chú ý của người dùng với thông tin phù hợp vào đúng thời điểm thông qua push notification để mở rộng mức độ tương tác.
+- Scalability và performance: Với tính năng mở rộng của Chat SDK, developer có thể phát triển một ứng dụng cộng đồng có thể tùy chỉnh với các tính năng nâng cao và khả năng cộng tác mạnh mẽ trên bất kỳ nền tảng nào, có thể kết nối trên thiết bị di động và web thông qua đồng bộ hóa cloud được lưu trữ và tự động cập nhật ngay lập tức. Performance của MirrorFly cực kì tốt, có truy cập vào tất cả các chức năng và tính năng của ứng dụng trò chuyện, hoạt động liên tục bất kể kết nối mạng thấp
+- Security: Cung cấp các giao thức bảo mật: GDPR, HIPAA,... để đáp ứng mọi yêu cầu của doanh nghiệp. Cuộc trò chuyện được niêm phong bằng mã hóa E2E để đảm bảo tương tác giữa người nhận và người gửi. Server & client được mã hóa bằng SSL 256-bit để bảo vệ toàn bộ dữ liệu trong cloud, chống lại tin tặc và nâng cao các hạn chế truy cập, cho phép xóa cuộc trò chuyện trong ứng dụng trò chuyện với khoảng thời gian có thể tùy chỉnh hoặc tùy chọn để tập trung vào mục đích bảo mật dữ liệu.
 
 ##### Tính năng khác
 - Message Broadcast
-- Enterprise Chat
 - Language Translation
 - Live Broadcasting
-- End to End Encryption
 - Multi Channels
 - Advanced Search Filters
 - Secure File Sharing
-- Encrypted Chats
+- Multiple Login
+- Voice Call Recording
+- ...
 
 ##### Platform: 
 iOS, Android, và Web App
@@ -80,17 +74,13 @@ Sendbird với đa dạng các kênh nhắn tin mang đến trải nghiệm kên
 
 Tăng mức độ tương tác của người dùng bằng cách cho phép người dùng linh hoạt thể hiện bản thân bằng nhiều định dạng tin nhắn. Giữ cho người dùng tương tác với trò chuyện thông qua tin nhắn và thông báo ngoại tuyến, đồng thời tăng khả năng sử dụng với tính năng tìm kiếm tin nhắn của Sendbird
 
-Không giống như các đối thủ cạnh tranh, Sendbird không cung cấp tính năng dịch thư tự động, chức năng kiểm duyệt giúp cho cuộc trò chuyện và người dùng có trải nghiệm xã hội được an toàn thông qua trang kiểm duyệt tổng quan, bộ lọc ngôn từ tục tĩu hoặc phân tích nâng cao
-
-Sendbird có tiêu chuẩn bảo mật và mã hóa nâng cao, tuân thủ các bảo mật: SOC 2, ISO 27001, HIPAA / HITECH, cũng như GDPR tạo một môi trường an toàn, sử dụng mã hóa AES256 để chia sẻ dữ liệu nhạy cảm cùng với thiết kế UI / UX lấy người dùng làm trung tâm. Tất cả thông tin liên lạc đến và đi từ các máy chủ Sendbird được mã hóa bằng TLS / SSL với các thiết bị xác thực cho phía client và server. 
-
 Khả năng mở rộng của Sendbird cung cấp trên 30 triệu MAU cho mỗi ứng dụng và trên 1 triệu kết nối đồng thời
 
-##### Tính năng nổi bật
-- Push notification
-- Scalability
-- Security
-
+##### Một số tính năng nổi bật
+- Push notification: 
+- Scalability: 
+- Security: Sendbird có tiêu chuẩn bảo mật và mã hóa nâng cao, tuân thủ các bảo mật: SOC 2, ISO 27001, HIPAA / HITECH, cũng như GDPR tạo một môi trường an toàn, sử dụng mã hóa AES256 để chia sẻ dữ liệu nhạy cảm cùng với thiết kế UI / UX lấy người dùng làm trung tâm. Tất cả thông tin liên lạc đến và đi từ các máy chủ Sendbird được mã hóa bằng TLS / SSL với các thiết bị xác thực cho phía client và server giúp người dùng hoàn toàn yên tâm khi sử dụng ứng dụng.
+- Kiểm soát người dùng: Không giống như các đối thủ cạnh tranh, Sendbird không cung cấp tính năng dịch thư tự động, chức năng kiểm duyệt giúp cho cuộc trò chuyện và người dùng có trải nghiệm xã hội được an toàn thông qua trang kiểm duyệt tổng quan, bộ lọc ngôn từ tục tĩu hoặc phân tích nâng cao
 
 ##### Tính năng khác
 - Typing Indicators
@@ -113,18 +103,14 @@ Miễn phí dành cho developer với ứng dụng thử nghiệm, chức năng 
 Bắt đầu từ $399/tháng đối với doanh nghiệp có quy mô lớn cần đầy đủ chức năng của một Chat SDK, có sẵn bản dùng thử miễn phí
 
 ### 3. ApphiTect
-ApphiTect được xây dựng để đáp ứng nhiều nhu cầu cho một ứng dụng trò chuyện, mang lại giao tiếp tốt hơn với các tính năng trò chuyện độc đáo giúp ứng dụng nổi bật hơn đối thủ cạnh tranh như khả năng kết nối toàn cầu, mọi lúc, mọi nơi, duy trì kết nối với người dùng thông qua API hội nghị truyền hình và thực hiện cuộc gọi hội nghị tới nhiều người trên mọi thiết bị, tạo ra sự tương tác lớn và mạnh mẽ bằng cách phát trực tiếp các sự kiện trực tiếp từ bất kỳ trình duyệt hoặc trang web nào bao gồm cả phương tiện truyền thông xã hội để có phạm vi tiếp cận không giới hạn... Cùng với vô số chức năng trò chuyện đã tích hợp được tạo sẵn. Bên cạnh đó, ApphiTect còn thúc đẩy khả năng trò chuyện cấp cao trên các lĩnh vực. Chat SDK mạnh mẽ cho phép nhiều khả năng trò chuyện: telehealth, gaming, banking , edu tech...
-
-Cung cấp một môi trường quy định, các biện pháp bảo mật được đánh giá cao nhất để đảm bảo an toàn bảo mật và tuân thủ các tiêu chuẩn với các dịch vụ nhắn tin trò chuyện sẵn sàng như: mã hóa E2E, giao thức Tín hiệu, Tuân thủ HIPAA, AES 26 và GDPR đảm bảo sự cộng tác hoàn hảo và an toàn của người dùng với mã hóa end-to-end trong dữ liệu hội thoại
-
-ApphiTect có khả năng mở rộng cao, với hỗ trợ API và SDK để mở rộng quy mô lên đến hơn 1 tỷ mức độ tương tác đồng thời của người dùng toàn cầu trên ứng dụng của bạn mà không có dead time, không có cản trở trên nhiều nền tảng với khả năng tích hợp dễ dàng
+ApphiTect được xây dựng để đáp ứng nhiều nhu cầu cho một ứng dụng trò chuyện, mang lại giao tiếp tốt hơn với các tính năng trò chuyện độc đáo giúp ứng dụng nổi bật hơn đối thủ cạnh tranh như khả năng kết nối toàn cầu, mọi lúc, mọi nơi, duy trì kết nối với người dùng thông qua API hội nghị truyền hình và thực hiện cuộc gọi hội nghị tới nhiều người trên mọi thiết bị, tạo ra sự tương tác lớn và mạnh mẽ bằng cách phát trực tiếp các sự kiện trực tiếp từ bất kỳ trình duyệt hoặc trang web nào bao gồm cả phương tiện truyền thông xã hội để có phạm vi tiếp cận không giới hạn... Bên cạnh đó, ApphiTect còn thúc đẩy khả năng trò chuyện cấp cao trên các lĩnh vực. Chat SDK mạnh mẽ cho phép nhiều khả năng trò chuyện: telehealth, gaming, banking , edu tech...
 
 Nhược điểm lớn nhất của ApphiTect là không có bản dùng thử miễn phí. Một số người có thể nghĩ rằng nó không đủ tiện lợi ngại ngùng trả phí để sử dụng.
 
-##### Tính năng nổi bật
+##### Một số tính năng nổi bật
 - Push notification
-- Scalability
-- Security
+- Scalability: ApphiTect có khả năng mở rộng cao, với hỗ trợ API và SDK để mở rộng quy mô lên đến hơn 1 tỷ mức độ tương tác đồng thời của người dùng toàn cầu trên ứng dụng của bạn mà không có dead time, không có cản trở trên nhiều nền tảng với khả năng tích hợp dễ dàng
+- Security: Cung cấp một môi trường quy định, các biện pháp bảo mật được đánh giá cao nhất để đảm bảo an toàn bảo mật và tuân thủ các tiêu chuẩn với các dịch vụ nhắn tin trò chuyện sẵn sàng như: mã hóa E2E, giao thức Tín hiệu, Tuân thủ HIPAA, AES 26 và GDPR đảm bảo sự cộng tác hoàn hảo và an toàn của người dùng với mã hóa end-to-end trong dữ liệu hội thoại
 
 
 #####  Tính năng khác
@@ -151,25 +137,24 @@ CometChat được tải đầy đủ tất cả các tính năng trò chuyện 
 
 Cung cấp tính năng nhắn tin trong ứng dụng có thể mở rộng, gọi thoại và video với khả năng tương thích đa nền tảng (iOS, Android và Web) và dễ dàng cài đặt. Một dòng mã thiết lập kết nối an toàn đến dịch vụ bằng cùng một giao thức cơ bản. Sử dụng các phần tử giao diện người dùng với SDK và xây dựng các tính năng và tiện ích mở rộng theo yêu cầu để tạo ra trải nghiệm hoàn chỉnh.
 
-Để đảm bảo chỉ người dùng của bạn có thể đọc những gì được gửi, CometChat có tính năng mã hóa dữ liệu end-to-end nhằm ngăn chặn việc đọc hoặc sửa đổi dữ liệu bởi bất kỳ ai trừ người gửi và người nhận. Các tin nhắn được mã hóa bởi người gửi và được người nhận giải mã cục bộ trên thiết bị của họ
 
-##### Tính năng nổi bật
+##### Một số tính năng nổi bật
 - Push notification
 - Scalability
-- Security
+- Security: Để đảm bảo chỉ người dùng của bạn có thể đọc những gì được gửi, CometChat có tính năng mã hóa dữ liệu end-to-end nhằm ngăn chặn việc đọc hoặc sửa đổi dữ liệu bởi bất kỳ ai trừ người gửi và người nhận. Các tin nhắn được mã hóa bởi người gửi và được người nhận giải mã cục bộ trên thiết bị của họ
 
 
 #####  Tính năng khác
-- Push Notifications, email Notifications, SMS Notifications
+- Email Notifications, SMS Notifications
 - Các phím tắt tin nhắn
 - Phiên âm giọng nói
 - Virus, Malware Scanner
 - Phân tích cảm xúc
 - Kiểm duyệt hình ảnh
-- End-to-end encryption
 
 ##### Platform:
 iOS, Android và Web
+
 ##### Chi phí: 
 Bắt đầu từ $149/tháng, có sẵn bản dùng thử miễn phí
 
@@ -177,25 +162,24 @@ Bắt đầu từ $149/tháng, có sẵn bản dùng thử miễn phí
 ##### Overview
 ChatCamp cung cấp các API nhắn tin thân thiện, đáng tin cậy, có thể mở rộng và bảo mật cho Android, iOS và các ứng dụng Web. 
 
-ChatCamp có thể xử lý hàng nghìn người dùng cùng một lúc, sử dụng cơ sở hạ tầng đẳng cấp thế giới của Google Cloud Platform để cung cấp dịch vụ đáng tin cậy nhất, tuân theo các phương pháp tốt nhất trong ngành để đảm bảo tính bảo mật và quyền riêng tư của dữ liệu.
-Tính năng Kiểm duyệt người dùng của họ cho phép văn bản liền mạch, audio hoặc video conferences cho dù đó là Open Channel hay Group Channel.
-
 Sử dụng chat SDK and messaging API để xây dựng một ứng dụng trò chuyện đầy đủ chức năng: cung cấp công cụ thông báo của họ thậm chí có thể gửi tin nhắn cho những người tham gia ngoại tuyến qua Email hoặc Thông báo đẩy trên thiết bị di động, kiểm duyệt người dùng và kiểm soát ngôn từ, lọc và loại bỏ các tin nhắn trò chuyện lạm dụng của người dùng. Tất cả các tin nhắn trò chuyện được lưu trữ an toàn trên Cloud,..
+
+Tính năng Kiểm duyệt người dùng của họ cho phép văn bản liền mạch, audio hoặc video conferences cho dù đó là Open Channel hay Group Channel.
 
 Điều riêng biệt của ChatCamp là đi kèm với một trang tổng quan mạnh mẽ, đặc biệt phù hợp với nhóm quản trị viên muốn quản lý Channels, config push notifications, kiểm duyệt người dùng trực tuyến,...
 
-##### Tính năng nổi bật
+##### Một số tính năng nổi bật
 - Push notification
 - Scalability
-- Security
+- Security: ChatCamp có thể xử lý hàng nghìn người dùng cùng một lúc, sử dụng cơ sở hạ tầng đẳng cấp thế giới của Google Cloud Platform để cung cấp dịch vụ đáng tin cậy nhất, tuân theo các phương pháp tốt nhất trong ngành để đảm bảo tính bảo mật và quyền riêng tư của dữ liệu.
 
 
 #####  Tính năng khác
+- Email notification
 - Group Channels
 - Thuyết tình trực tuyến
 - Kiểm duyệt người dùng 
 - Kiểm soát ngôn từ 
-- Push Notifications, email notification
 - Tin nhắn tự động
 - Trang điều khiển
 
@@ -207,3 +191,9 @@ iOS, Android, và Web Apps
 Có bản dùng thử miễn phí
 Gói định giá tùy theo các kế hoạch được thiết kế riêng phù hợp với doanh nghiệp, bắt đầu từ 499$/tháng
 
+#Tổng kết
+- Hầu hết các chat SDK đều cung cấp chức năng Push notification, đảm bảo cho người dùng luôn có thể hiện hữu, tương tác trong ứng dụng trò chuyện
+- Tính bảo mật là yếu tố quan trọng để đánh giá một Chat SDK, việc đảm bảo an toàn thông tin cho người sự dụng là vấn đề hàng đầu cần chú tâm. 
+- Tính mở rộng cũng là một trong những thước đo giá trị của chat SDK thành công, các doanh nghiệp có thể xây dựng, phát triển tạo nên giá trị riêng từ nhưng khuôn mẫu giá trị chung
+- Các Chat SDK hầu hết đều tích hợp đa nền tảng như iOS, Android và Web
+- Chi phí khi sử dụng các Chat SDK từ từng nhà cung cấp có giá trị chệnh lệch không cao, những chức năng tích hợp từ bộ SDK đều phong phú đa dạng và đáp ứng được mọi nhu cầu sử dụng của người dùng.
